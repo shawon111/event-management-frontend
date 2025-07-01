@@ -18,7 +18,7 @@ const AppRouter = () => {
                 <Route element={<MainLayout />}>
                     <Route path="/" element={<Home />} />
                     <Route path="/events" element={<Events />} />
-                    <Route path="/events/my-events/:id" element={<MyEvents />} />
+                    <Route path="/events/my-events" element={<MyEvents />} />
                     <Route path="/events/add-event" element={<AddEvent />} />
                 </Route>
                 {/* Auth Routes */}
